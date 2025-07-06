@@ -8,21 +8,21 @@ These are focused on real-world AI and machine learning systems. This repository
 
 ## Contents
 
-### 1. [Lung Nodule Detection – Persona-Driven Documentation](docs/user-needs-doc.md)
+### 1. [Lung Nodule Detection – Persona-Driven Documentation](./user-needs-doc.md)
 
 - **Use Case:** Medical image classification for early lung cancer detection
 - **Focus:** User personas (radiologists, doctors, researchers) and their documentation needs
 
-### 2. [Fraud Detection – ML Approach Analysis](docs/identify-ML.md)
+### 2. [Fraud Detection – ML Approach Analysis](./identify-ML.md)
 - **Use Case:** Financial transaction fraud detection
 - **Focus:** Learning type, data needs, and explainability challenges
 - **Documentation Insight:** What’s hard to explain to stakeholders
 
-### 3. [Model Card for an AI model](docs/model-card.md)
+### 3. [Model Card for an AI model](./model-card.md)
 
-### 4. [A Layered Documentation Plan](layered-doc.md)
+### 4. [A Layered Documentation Plan](./layered-doc.md)
 
-### 5. [Tailor the Technical Concepts to Different Audiences](different-audience.md)
+### 5. [Tailor the Technical Concepts to Different Audiences](./different-audience.md)
 
 ## Why This Repo?
 
