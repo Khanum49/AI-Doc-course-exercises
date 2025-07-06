@@ -4,7 +4,9 @@ Choose a publicly available model from [Hugging Face](https://huggingface.co/mod
 
 Model Chosen: [CodeTrans model for code documentation generation go](https://huggingface.co/SEBIS/code_trans_t5_base_code_documentation_generation_go)
 
-# Model Card: [CodeTrans model for code documentation generation go]
+# Model Card: 
+
+## [CodeTrans model for code documentation generation go]
 
     ## Model Details
     - Developer: Ahmed Elnaggar & Wei Dang
