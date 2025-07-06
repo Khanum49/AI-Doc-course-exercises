@@ -1,4 +1,4 @@
-# 🧠 AI Documentation Exercises Portfolio
+# AI Documentation Exercises Portfolio
 
 Welcome to my curated collection of hands-on documentation exercises based on the exercises in the [AI Documentation Course](https://beingtechnicalwriter.com/aimldocumentation/) by [Being Technical Writer](https://beingtechnicalwriter.com/).
 

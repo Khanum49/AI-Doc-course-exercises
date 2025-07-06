@@ -58,7 +58,7 @@ This system aims to assist healthcare professionals in accurately detecting and 
 
 These formats ensure that users with high technical expertise can access both in-depth understanding and quick, contextual demos of the system in action.
 
-## ✅ Conclusion
+## Conclusion
 
 This user analysis helps prioritize documentation content based on **user needs** instead of the writer’s perspective. Centering documentation around personas like radiologists, clinicians, and researchers ensures better usability, trust, and adoption of AI-driven medical tools.
 

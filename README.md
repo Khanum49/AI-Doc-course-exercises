@@ -9,15 +9,17 @@ This repository presents a sample documentation project number two, designed to 
 The following repository contains a the documentation for the following list of tasks:
 
  - [Understanding User Needs in AI/ML Documentation](docs/user-needs-doc.md)
- - [Identify the ML Approach](docs/idenitfy-ML.md)
+ - [Identify the ML Approach](docs/identify-ML.md)
  - [Create a model card for an AI model](docs/model-card.md)
  - [Create a layered documentation plan](layered-doc.md)
  - [Tailor the Technical Concepts to Different Audiences](different-audience.md)
  - Upcoming tasks to be continued...
 
-## Tools used
-
-
+## Tools Used
+- Markdown
+- Git & GitHub
+- Persona mapping techniques
+- AI/ML domain knowledge
 
 ## [View full guide](docs/index.md)
 
