@@ -37,10 +37,11 @@ Unsupervised learning is used in the following cases:
 
 ## 2️. Task Type: Classification, Clustering, or Something Else?
 
-|       **Task Type**       |   **Usage**         |    **Example**    |
-|   **Classification**      | Most typical setup. | The primary ML task in fraud detection. Classify a transaction as **fraudulent** or **legitimate**. |
-|     **Clustering**        | Sometimes for unsupervised scenarios. | Groups similar user behavior. Flags outliers that deviate from known clusters. |
-| **Anomaly Detection**     | Works well with streaming data. | Identifies unusual behaviors in real-time where labeled fraud is rare. |
+| Task Type         | Usage                             | Example                                                                 |
+|-------------------|-----------------------------------|-------------------------------------------------------------------------|
+| Classification    | Most typical setup.               | The primary ML task in fraud detection. Classify a transaction as fraudulent or legitimate. |
+| Clustering        | Sometimes for unsupervised scenarios. | Groups similar user behavior. Flags outliers that deviate from known clusters. |
+| Anomaly Detection | Works well with streaming data.   | Identifies unusual behaviors in real-time where labeled fraud is rare. |
 
 
 ## 3️. Required Data Inputs
