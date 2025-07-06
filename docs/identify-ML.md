@@ -67,7 +67,7 @@ To effectively detect fraud, models rely on a wide range of **behavioral and tra
      - Account age, customer ID, risk score from external systems
 
 
-## 4️. Documentation Challenges: What’s Hard to Explain?
+## 4. Documentation Challenges: What’s Hard to Explain?
 
 Even with strong models, some aspects are difficult to convey clearly in documentation, especially for non-technical stakeholders:
 
