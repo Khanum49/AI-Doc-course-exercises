@@ -4,11 +4,11 @@
    <img src="images/image2.png" alt="Task Description" style="max-width: 100%; height: auto;">
  </p>
  
-# 🛡️ ML Approach Overview: Fraud Detection System
+# ML Approach Overview: Fraud Detection System
 
 This document explores the machine learning (ML) approaches commonly used in a ML based Fraud Detection System. It outlines the types of learning, data requirements, and challenges in explaining the underlying model logic to diverse readers.
 
-## 1️.Type of Learning
+## 1. Type of Learning
 
 Fraud detection typically applies **both supervised and unsupervised learning**, depending on the availability of labeled data.
 
@@ -35,7 +35,7 @@ Unsupervised learning is used in the following cases:
      - Isolation Forest
      - Autoencoders
 
-## 2️. Task Type: Classification, Clustering, or Something Else?
+## 2. Task Type: Classification, Clustering, or Something Else?
 
 | Task Type         | Usage                             | Example                                                                 |
 |-------------------|-----------------------------------|-------------------------------------------------------------------------|
@@ -44,19 +44,26 @@ Unsupervised learning is used in the following cases:
 | Anomaly Detection | Works well with streaming data.   | Identifies unusual behaviors in real-time where labeled fraud is rare. |
 
 
-## 3️. Required Data Inputs
+## 3. Required Data Inputs
 
 To effectively detect fraud, models rely on a wide range of **behavioral and transactional data**:
 
- a. **Transactional Data:**
+ 1. **Transactional Data:**
+     
      - Amount, time, location, merchant ID
      - Payment method, card type
- b. **User Behavior:**
+ 
+ 2. **User Behavior:**
+     
      - Login frequency, typing patterns, mouse movements
      - Device fingerprinting (IP, browser, OS)
- c. **Historical Labels (for supervised learning):**
+ 
+ 3. **Historical Labels (for supervised learning):**
+     
      - Flags from past incidents (e.g., marked fraud by user or investigator)
- d. **Metadata:**
+ 
+ 4. **Metadata:**
+     
      - Account age, customer ID, risk score from external systems
 
 
@@ -64,27 +71,27 @@ To effectively detect fraud, models rely on a wide range of **behavioral and tra
 
 Even with strong models, some aspects are difficult to convey clearly in documentation, especially for non-technical stakeholders:
 
-### Feature Engineering Logic
+### a. Feature Engineering Logic
 
  - Complex derived metrics (e.g., *“Time since last transaction”* or *“Velocity of transactions per hour”*) may not be intuitive.
  - Readers may not understand **why** specific features improve detection.
 
-### Model Interpretability
+### b. Model Interpretability
 
  - Black-box models (e.g., *deep learning*) make it hard to explain **why** a transaction was flagged.
  - Explaining decisions in **simple human terms** becomes a challenge.
 
-### Imbalanced Datasets
+### c. Imbalanced Datasets
 
  - Fraud cases are rare (often <1% of all data).
  - Requires **resampling techniques** (SMOTE, class weighting) that might confuse readers unfamiliar with ML pipelines.
 
-### Threshold Setting
+### d. Threshold Setting
 
  - Precision vs. recall trade-offs impact **how sensitive** a system is to fraud.
  - Explaining why a threshold (e.g., 0.75) was chosen can feel arbitrary to non-data scientists.
 
-### Ethical & Privacy Concerns
+### e. Ethical & Privacy Concerns
  
  - Must document **how personal data is used and protected**
  - Explaining compliance with data privacy laws (e.g., GDPR) is essential, yet hard to balance with technical clarity
