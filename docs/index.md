@@ -1,26 +1,54 @@
-# Configuring a Simple Firewall Rule on Ubuntu using UFW
+# 🧠 AI Documentation Exercises Portfolio
 
-Welcome! This technical guide walks you through configuring a basic firewall rule on a local Ubuntu machine using **UFW (Uncomplicated Firewall)**. You'll learn how to:
+Welcome to my curated collection of hands-on documentation exercises based on the exercises in the [AI Documentation Course](https://beingtechnicalwriter.com/aimldocumentation/) by [Being Technical Writer](https://beingtechnicalwriter.com/).
 
-- Install and enable UFW
-- Allow HTTP traffic (port 80)
-- Block all other incoming traffic
-- Verify and test your configuration
+These are focused on real-world AI and machine learning systems. This repository demonstrates how technical documentation can be structured around user needs, use-case clarity, and ML transparency.
 
-## 🔒 Why UFW?
+**Goal:** To showcase my skills as a technical writer by translating complex AI/ML topics into accessible, structured, and user-centric documentation.
 
-**UFW** is a simple interface to manage iptables firewall rules on Linux. It’s designed to make firewall configuration easy for users, while still allowing advanced users to control detailed settings.
+## Contents
 
-Proper firewall configuration enhances your system's security by allowing only trusted traffic and blocking unwanted access.
+### 1. [Lung Nodule Detection – Persona-Driven Documentation](docs/user-needs-doc.md)
+
+- **Use Case:** Medical image classification for early lung cancer detection
+- **Focus:** User personas (radiologists, doctors, researchers) and their documentation needs
+
+### 2. [Fraud Detection – ML Approach Analysis](docs/identify-ML.md)
+- **Use Case:** Financial transaction fraud detection
+- **Focus:** Learning type, data needs, and explainability challenges
+- **Documentation Insight:** What’s hard to explain to stakeholders
+
+### 3. [Model Card for an AI model](docs/model-card.md)
+
+### 4. [A Layered Documentation Plan](layered-doc.md)
+
+### 5. [Tailor the Technical Concepts to Different Audiences](different-audience.md)
+
+## Why This Repo?
+
+Creating effective AI documentation goes beyond writing about models — it's about understanding:
+- Who the users are
+- What questions they’ll ask
+- How to communicate ML logic responsibly and clearly
+
+This repo is a space to practice and demonstrate exactly that.
 
 
-## Full Guide
+## Tools Used
+- Markdown
+- Git & GitHub
+- Persona mapping techniques
+- AI/ML domain knowledge (image processing, fraud detection)
 
-[Read the full guide here](./simple-firewall-setup.md)
+
+## About Me
+
+I'm Rabiah Khanum, a technical writer and engineer passionate about communicating complex ideas simply. This portfolio is a reflection of my learning journey in AI documentation.
+
+Feel free to explore, learn, or contribute!
 
 
 ## Author
-
 **Rabiah Khanum**  
 Technical Writer 
 [GitHub Profile](https://github.com/Khanum49)
